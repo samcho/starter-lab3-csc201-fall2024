@@ -72,15 +72,16 @@ respectively.
 
 ## 3. **Time Sorting Algorithm Performance**
 
-For the Merge Sort, Quick Sort, and Heap Sort algorithms, you will use `System.nanoTime()` to calculate the time it takes to run them on 
-already-sorted, shuffled, and reversed lists. 
+For the Bubble Sort, Merge Sort, Quick Sort, and Heap Sort algorithms, you will use `System.nanoTime()` to calculate 
+the time it takes to run them on already-sorted, shuffled, and reversed lists. 
 
 For the Bubble Sort and Odd-Even Transposition Sort algorithms, you will count the number of comparisons made during 
 the sorting processes.
 
-Your program will print out the number of lines evaluated and the times or comparisons to sort the already-sorted, shuffled, and 
-reversed lists to the screen in a human-readable format (i.e., nice to look at) and also separately to a file named 
-`analysis.txt` in CSV format. Each time the program runs, it will append the timing results to `analysis.txt`. 
+Your program will print out the number of lines evaluated and the times and/or comparisons to sort the already-sorted, 
+shuffled, and reversed lists to the screen in a human-readable format (i.e., nice to look at) and also separately to a 
+file named `analysis.txt` in CSV format. Each time the program runs, it will append the timing results to 
+`analysis.txt`. 
 
 In addition, your program will print out the sorted lists to a file named `sorted.txt`. Each time the program runs, it 
 will overwrite the previous sorted lists in `sorted.txt`.
@@ -94,12 +95,12 @@ Using your favorite graphing software (e.g., MS Excel or Google Sheets), plot th
 vs. N for each case. Take a screenshot of your graph and put them here by modifying this file, committing, and pushing 
 it to this repository.
 
-Merge Sort, Quick Sort, and Heap Sort running time (already sorted):
+Bubble Sort, Merge Sort, Quick Sort, and Heap Sort running time (already sorted):
 ![image](https://github.com/user-attachments/assets/76f103c8-8c02-4bec-9966-99568f2effb6)
 
-Merge Sort, Quick Sort, and Heap Sort running time (shuffled):
+Bubble Sort, Merge Sort, Quick Sort, and Heap Sort running time (shuffled):
 
-Merge Sort, Quick Sort, and Heap Sort running time (reversed):
+Bubble Sort, Merge Sort, Quick Sort, and Heap Sort running time (reversed):
 
 Bubble Sort and Odd-Even Transposition Sort comparison (already sorted):
 
